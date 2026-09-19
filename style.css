@@ -44,5 +44,14 @@ th {
   background: #f4f4f4;
 }
 tr:last-child td { font-weight: bold; }
+.ascii-table {
+  font-family: "Courier New", Courier, monospace;
+  font-size: clamp(0.5rem, 2.3vw, 0.85rem);
+  line-height: 1.4;
+  white-space: pre;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  color: #111;
+}
 .yes { color: #070; }
 .no { color: #999; }
