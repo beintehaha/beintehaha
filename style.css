@@ -1,6 +1,6 @@
 body {
   max-width: 38rem;
-  margin: 3rem auto;
+  margin: 3rem 0 3rem 2rem;
   padding: 0 1rem;
   font: 1.05rem/1.6 Georgia, serif;
   color: #111;
@@ -46,8 +46,8 @@ th {
 tr:last-child td { font-weight: bold; }
 .ascii-table {
   font-family: "Courier New", Courier, monospace;
-  font-size: clamp(0.5rem, 2.3vw, 0.85rem);
-  line-height: 1.4;
+  font-size: clamp(0.42rem, 1.5vw, 0.6rem);
+  line-height: 1.3;
   white-space: pre;
   overflow-x: auto;
   margin: 1.5rem 0;
