@@ -8,7 +8,7 @@ body {
 }
 body.wide { max-width: 62rem; }
 a { color: #00e; }
-a:visited { color: #609; }
+a:visited { color: #00e; }
 h1 { font-size: 1.7rem; margin-bottom: 0.2rem; }
 h1 a { color: #111; text-decoration: none; }
 h2 { font-size: 1.3rem; margin-top: 2.5rem; }
@@ -33,14 +33,14 @@ footer {
 table.log {
   border-collapse: collapse;
   font-family: "Courier New", Courier, monospace;
-  font-size: clamp(0.6rem, 1.3vw, 0.75rem);
-  line-height: 1.3;
+  font-size: clamp(0.55rem, 1.1vw, 0.68rem);
+  line-height: 1.2;
   white-space: nowrap;
   border: 1px solid #333;
 }
 table.log th, table.log td {
   border: 1px solid #999;
-  padding: 0.25rem 0.5rem;
+  padding: 0.12rem 0.35rem;
   text-align: right;
   white-space: nowrap;
 }
