@@ -14,6 +14,7 @@ h2 { font-size: 1.3rem; margin-top: 2.5rem; }
 ul { padding-left: 1.2rem; }
 li { margin-bottom: 0.4rem; }
 .tagline { color: #555; font-size: 0.95rem; margin-bottom: 2rem; }
+.tagline-tracking { color: #c00; font-size: 0.95rem; margin-bottom: 2rem; }
 .meta { color: #555; font-size: 0.9rem; margin-bottom: 1.5rem; }
 .links { list-style: none; padding-left: 0; font-size: 1.1rem; }
 .links li { margin-bottom: 0.6rem; }
@@ -28,18 +29,19 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin: 1.5rem 0;
-  font-size: 0.95rem;
+  font: 0.95rem/1.5 "Courier New", Courier, monospace;
+  border: 1px solid #333;
 }
 th, td {
-  border-bottom: 1px solid #ddd;
-  padding: 0.5rem 0.6rem;
+  border: 1px solid #333;
+  padding: 0.4rem 0.6rem;
   text-align: right;
 }
 th:first-child, td:first-child { text-align: left; }
 th {
-  font-weight: normal;
-  color: #555;
-  border-bottom: 1px solid #999;
+  font-weight: bold;
+  color: #111;
+  background: #f4f4f4;
 }
 tr:last-child td { font-weight: bold; }
 .yes { color: #070; }
