@@ -14,7 +14,7 @@ h1 a { color: #111; text-decoration: none; }
 h2 { font-size: 1.3rem; margin-top: 2.5rem; }
 ul { padding-left: 1.2rem; }
 li { margin-bottom: 0.4rem; }
-.tagline { color: #555; font-size: 0.95rem; margin-bottom: 2rem; }
+.tagline { color: #c00; font-size: 0.95rem; margin-bottom: 2rem; }
 .tagline-tracking { color: #c00; font-size: 0.95rem; margin-bottom: 2rem; }
 .meta { color: #555; font-size: 0.9rem; margin-bottom: 1.5rem; }
 .links { list-style: none; padding-left: 0; font-size: 1.1rem; }
@@ -33,17 +33,18 @@ footer {
 table.log {
   border-collapse: collapse;
   font-family: "Courier New", Courier, monospace;
-  font-size: clamp(0.55rem, 1.1vw, 0.68rem);
+  font-size: 0.68rem;
   line-height: 1.2;
   white-space: nowrap;
   border: 1px solid #333;
 }
 table.log th, table.log td {
   border: 1px solid #999;
-  padding: 0.12rem 0.35rem;
+  padding: 0.1rem 0.3rem;
   text-align: right;
   white-space: nowrap;
 }
+table.log td { font-size: 0.6rem; }
 table.log th:first-child, table.log td:first-child,
 table.log th:nth-child(3), table.log td:nth-child(3) {
   text-align: left;
