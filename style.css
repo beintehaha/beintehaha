@@ -46,7 +46,7 @@ table.log th, table.log td {
 }
 table.log td { font-size: 0.6rem; }
 table.log th:first-child, table.log td:first-child,
-table.log th:nth-child(3), table.log td:nth-child(3) {
+table.log th:nth-child(2), table.log td:nth-child(2) {
   text-align: left;
 }
 table.log th {
