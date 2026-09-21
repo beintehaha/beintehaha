@@ -83,6 +83,33 @@ table.log th {
 }
 .yes { color: #070; }
 .no { color: #999; }
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.2rem 0.8rem;
+  margin: 1.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+.book-grid li { margin-bottom: 0; }
+.book-grid a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+.book-cover {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #999;
+}
+.book-stars {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  color: #c00;
+  letter-spacing: 0.05em;
+}
 .progress {
   font-family: "Courier New", Courier, monospace;
   font-size: 0.85rem;
