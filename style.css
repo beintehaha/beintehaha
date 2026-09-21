@@ -86,7 +86,7 @@ table.log th {
 .book-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 1.2rem 0.8rem;
+  gap: 0.6rem 0.4rem;
   margin: 1.5rem 0;
 }
 .book-item {
@@ -97,7 +97,7 @@ table.log th {
   text-decoration: none;
 }
 .book-cover {
-  width: 50%;
+  width: 25%;
   height: auto;
   display: block;
   margin: 0 auto;
