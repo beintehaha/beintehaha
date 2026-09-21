@@ -39,12 +39,12 @@ footer {
 }
 .chart-label {
   font-family: "Courier New", Courier, monospace;
-  font-size: 9px;
+  font-size: 13px;
   fill: #111;
 }
 .chart-tick {
   font-family: "Courier New", Courier, monospace;
-  font-size: 8px;
+  font-size: 12px;
   fill: #555;
 }
 table.log {
