@@ -32,7 +32,6 @@ footer {
 }
 .debt-chart {
   width: 100%;
-  max-width: 420px;
   height: auto;
   display: block;
   margin: 1.5rem 0 0.5rem;
@@ -54,6 +53,7 @@ table.log {
   line-height: 1.3;
   white-space: nowrap;
   border: 1px solid #333;
+  width: 100%;
 }
 table.log th, table.log td {
   border: 1px solid #999;
